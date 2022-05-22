@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>example</title>
+<style type="text/css">
+#container {
+	height: 400;
+	width: 1200px;
+}
+.ortak {
+	float: left;
+	height: 300px;
+	width: 300px;
+	margin-top: 20px;
+	margin-right: 20px;
+	position: relative;
+}
+	.ortak span{
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    z-index: 10px;
+    background-color: antiquewhite;
+    padding-top: 0px;
+	}
+	.ortak span:hover {
+    background-color: blueviolet;
+    height: 300px;
+    transition: 6s;
+    padding-top: 0px;
+	}
+
+</style>
+</head>
+
+<body>
+<div id="container">
+  <div class="ortak" id="ortaak1"><a href="#"><img src="img/gunluk_erkek.png" width="300" height="300" alt=""/>
+  
+  <span>YENİ SEZON</span>
+  </a></div>
+  <div class="ortak" id="ortaak2"><a href="#"><img src="img/kirmizi_topuklu.png" width="300" height="300" alt=""/>
+  <span>KONFOR</span>
+  
+  
+  </a></div>
+  <div class="ortak" id="ortaak3"><a href="#"><img src="img/Slider.png" width="300" height="300" alt=""/>
+  <span>İNDİRİM</span>
+  
+  </a></div>
+</div>
+</body>
+</html>

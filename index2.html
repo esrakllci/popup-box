@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+#container {
+	margin: auto;
+	float: left;
+	height: 320px;
+	width: 1200px;
+}
+.ortak {
+	width: 300px;
+	height: 300px;
+	margin-left:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	float:left;
+	position:relative;
+}
+	.ortak span
+	{
+		position:absolute;
+		z-index: 10px;
+		width:300px;
+		height:50px;
+		left:0px;
+		bottom:0px;
+		background-color: aqua;
+		text-align: center;
+		line-height: 50px; 
+		
+	}
+	.ortak span:hover{
+		height:300px;
+		background-color: aquamarine;
+		transition: 5s;
+	}
+</style>
+</head>
+
+<body>
+<div id="container">
+  <div class="ortak" id="ortak1"><a href="#"><img src="img/gunluk_erkek.png" width="300" height="300" alt=""/>
+  <span>YENİ SEZON</span>
+  
+  </a></div>
+  <div class="ortak" id="ortak2"><a href="#"><img src="img/kirmizi_topuklu.png" width="300" height="300" alt=""/>
+   <span>YENİ SEZON</span>
+  </a></div>
+  <div class="ortak" id="ortak3"><a href="#"><img src="img/gunluk_erkek.png" width="300" height="300" alt=""/>
+    <span>YENİ SEZON</span>
+  
+  </a></div>
+Content for  id "container" Goes Here</div>
+</body>
+</html>
